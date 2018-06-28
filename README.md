@@ -2,7 +2,10 @@
 给bash添加路径快速切换方法
 
 ## install
-
+```
+$ cd ~
+$ curl https://github.com/ymzuiku/bash_pash_history/README.md -o .bash_pash_history --progress
+```
 > 在 .bash_profile 中添加以下内容
 
 ```sh
