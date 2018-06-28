@@ -6,12 +6,18 @@
 $ cd ~
 $ git clone https://github.com/ymzuiku/bash_pash_history.git
 ```
-> 在 .bash_profile 中添加以下内容
+> 在 .bash_profile 中添加以下内容, 引入文件
 
 ```sh
 if [ -f ~/bash_pash_history/.bash_pash_history ];then
   source ~/bash_pash_history/.bash_pash_history
 fi
+```
+
+重新加载.bash_profile
+
+```sh
+$ source ~/.bash_profile
 ```
 
 ## Use
