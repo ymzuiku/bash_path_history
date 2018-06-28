@@ -31,7 +31,8 @@ $ pa pathName
 cd到之前保存的快捷路径:
 
 ```sh
-$ pc pathName
+$ pc 0  (用编号跳转)
+$ pc pathName (用名字跳转)
 ```
 
 查看保存的快捷路径:
@@ -43,7 +44,7 @@ $ pl
 删除某一个快捷路径:
 
 ```sh
-$ pd 1  (用编号删除)
+$ pd 0  (用编号删除)
 $ pd pathName (用名字删除)
 ```
 
