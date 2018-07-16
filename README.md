@@ -56,6 +56,4 @@ $ p-clear
 ```
 
 #### 整个项目很简单，只有130行shell代码，有兴趣的可以查看源码：
-[.bash_pash_history文件](https://github.com/ymzuiku/bash_pash_history/blob/master/.bash_pash_history)
-
-如果你喜欢, 请给一个Star :)
+[.bash_pash_history 文件](https://github.com/ymzuiku/bash_pash_history/blob/master/.bash_pash_history)
