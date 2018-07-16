@@ -2,12 +2,12 @@
 
 我们平时使用终端时，经常需要在不同的路径来回跳转，如何更便捷的添加、使用、移除快捷路径，并且在多个shell直接共享快捷路径，就是这个小项目需要解决的问题。
 
-## install
-```
+## Install
+```sh
 $ cd ~
 $ git clone https://github.com/ymzuiku/bash_pash_history.git
 ```
-> 在 .bash_profile 中添加以下内容, 引入文件
+在 .bash_profile 中添加以下内容, 引入文件
 
 ```sh
 if [ -f ~/bash_pash_history/.bash_pash_history ];then
@@ -55,3 +55,5 @@ $ pd pathName (用名字删除)
 $ p-clear
 ```
 
+#### 整个项目很简单，只有130行shell代码，有兴趣的可以查看源码：
+[.bash_pash_history文件](https://github.com/ymzuiku/bash_pash_history/blob/master/.bash_pash_history)
