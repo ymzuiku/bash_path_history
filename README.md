@@ -5,13 +5,13 @@
 ## Install
 ```sh
 $ cd ~
-$ git clone https://github.com/ymzuiku/bash_pash_history.git
+$ git clone https://github.com/ymzuiku/bash_path_history.git
 ```
 在 .bash_profile 中添加以下内容, 引入文件
 
 ```sh
-if [ -f ~/bash_pash_history/.bash_pash_history ];then
-  source ~/bash_pash_history/.bash_pash_history
+if [ -f ~/bash_path_history/.bash_path_history ];then
+  source ~/bash_path_history/.bash_path_history
 fi
 ```
 
@@ -56,4 +56,4 @@ $ p-clear
 ```
 
 #### 整个项目很简单，只有130行shell代码，有兴趣的可以查看源码：
-[.bash_pash_history 文件](https://github.com/ymzuiku/bash_pash_history/blob/master/.bash_pash_history)
+[.bash_path_history 文件](https://github.com/ymzuiku/bash_pash_history/blob/master/.bash_path_history)
